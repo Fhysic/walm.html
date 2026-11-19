@@ -10,6 +10,7 @@ import {
   Star,
   UsersRound,
 } from 'lucide-react';
+import { Analytics } from '@vercel/analytics/react';
 
 const faqs = [
   'How do I claim my $750 Gift Card?',
@@ -167,6 +168,7 @@ function App() {
       </section>
 
       <footer><p><span>★</span> Thanks for choosing us. Have a great rest of your day! <b>★</b></p><small>© 2026 Walmart Promo • All rights reserved</small></footer>
+      <Analytics />
     </main>
   );
 }
